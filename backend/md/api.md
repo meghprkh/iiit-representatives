@@ -1,0 +1,32 @@
+- /doctor/:uid // uid = PatientID
+  - /vaccine
+    - GET /
+    - POST /
+    - GET /:vid
+  - /record
+    - GET /
+    - GET /:rid
+    - POST /
+  - /allergy
+    - GET /
+    - POST /
+    - GET /:aid
+    - DELETE /:aid
+    - PUT /:aid
+  - /vital
+    - GET /
+    - GET /:vitalid
+    - PUT /:vitalid
+- /user/:uid
+  - /vaccine
+    - GET /
+    - GET /:vid
+  - /record
+    - GET /
+    - GET /:rid
+  - /allergy
+    - GET /
+    - GET /:aid
+  - /vital
+    - GET /
+    - GET /:vitalid
